@@ -1,0 +1,15 @@
+current directory: /Users/bradleybiehl/Code/TDD_rails_retail_app/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+/Users/bradleybiehl/.rvm/rubies/ruby-2.6.1/bin/ruby -I /Users/bradleybiehl/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0 -r ./siteconf20190512-14703-dgeh3o.rb extconf.rb
+creating Makefile
+
+current directory: /Users/bradleybiehl/Code/TDD_rails_retail_app/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/bradleybiehl/Code/TDD_rails_retail_app/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/cruby.bundle
+
+current directory: /Users/bradleybiehl/Code/TDD_rails_retail_app/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20190512-14703-1ft1k3s/skiptrace

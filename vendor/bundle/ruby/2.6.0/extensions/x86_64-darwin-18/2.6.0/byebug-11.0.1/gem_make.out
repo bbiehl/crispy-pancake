@@ -1,0 +1,19 @@
+current directory: /Users/bradleybiehl/Code/TDD_rails_retail_app/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+/Users/bradleybiehl/.rvm/rubies/ruby-2.6.1/bin/ruby -I /Users/bradleybiehl/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0 -r ./siteconf20190512-14703-z558pm.rb extconf.rb
+creating Makefile
+
+current directory: /Users/bradleybiehl/Code/TDD_rails_retail_app/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/bradleybiehl/Code/TDD_rails_retail_app/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/bradleybiehl/Code/TDD_rails_retail_app/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 byebug.bundle ./.gem.20190512-14703-d0o0n8/byebug
