@@ -16,4 +16,13 @@ RSpec.describe Author, type: :model do
       expect(subject.errors).to have_key(:name)
     end
   end
+
+  context 'name is not unique' do
+    before { Author.create(name: 'Skunk Baxter')}
+    subject { Author.create(name: 'Skunk Baxter')}
+
+    it 'is not valid' do
+      expect(subject.errors[:name]).to include("has already been taken") 
+    end
+  end
 end
