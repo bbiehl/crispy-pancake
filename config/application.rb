@@ -34,7 +34,7 @@ module TDDRailsRetailApp
         g.javascript_engine :js
         g.helper false
 
-        g.test_framework :rspec
+        g.test_framework :rspec,
             fixtures:           false,
             view_specs:         false,
             helper_specs:       false,
