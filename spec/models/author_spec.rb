@@ -18,8 +18,8 @@ RSpec.describe Author, type: :model do
   end
 
   context 'name is not unique' do
-    before { Author.create(name: 'Skunk Baxter')}
-    subject { Author.create(name: 'Skunk Baxter')}
+    before { Author.create(name: 'Skunk Baxter') }
+    subject { Author.create(name: 'Skunk Baxter') }
 
     it 'is not valid' do
       expect(subject.errors[:name]).to include("has already been taken") 

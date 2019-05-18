@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.1'
 
+gem 'money-rails', '~> 1.13', '>= 1.13.2'
 gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'pry', '~> 0.12.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
